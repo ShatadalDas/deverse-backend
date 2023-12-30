@@ -9,3 +9,5 @@ const getAllUser = async (req, res) => {
     console.err(err.message);
   }
 };
+
+module.exports = { getAllUser };
