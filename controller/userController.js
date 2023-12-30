@@ -1,6 +1,6 @@
 const model = require("./../model/user.json");
 
-const getAllUser = async (req, res) => {
+const getAll = async (req, res) => {
   const user = await model;
   try {
     if (!user) return res.status(204).json({ message: "user not found" });
@@ -10,4 +10,4 @@ const getAllUser = async (req, res) => {
   }
 };
 
-module.exports = { getAllUser };
+module.exports = { getAll };
