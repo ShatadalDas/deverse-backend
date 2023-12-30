@@ -9,4 +9,3 @@ const getAllUser = async (req, res) => {
     console.err(err.message);
   }
 };
-getAllUser();
