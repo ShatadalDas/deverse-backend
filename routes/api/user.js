@@ -2,7 +2,7 @@ const express = require("express");
 
 const router = express.Router();
 
-router.route("").get((req, res) => {
+router.route("/api/getUser").get((req, res) => {
   res.json({ message: "hello" });
 });
 
